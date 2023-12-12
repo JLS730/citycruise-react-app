@@ -1,0 +1,120 @@
+.homepage-container {
+    // background-color: green;
+    min-height: calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ride-order-container {
+        // height: 700px;
+        width: 1150px;
+        max-width: 100%;
+        // background-color: pink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid #69C9FF;
+        border-radius: 10px;
+        overflow: hidden;
+
+        .ride-order-left-container {
+            width: 50%;
+            height: 100%;
+            // background-color: aqua;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-direction: column;
+            font-family: sans-serif;
+
+            img {
+                position: absolute;
+                height: 900px;
+            }
+
+            .ride-order-image-tint {
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,.6);
+                background-blend-mode: multiply;
+                position: absolute;
+            }
+
+            .ride-order-title {
+                z-index: 1;
+                color: white;
+                font-size: 4em;
+                margin: .7em 0;
+                margin-left: .2em;
+            }
+            
+            .ride-order-slogan {
+                z-index: 1;
+                color: white;
+                font-size: 2em;
+                margin-left: .5em;
+                padding: .7em 0;
+
+            }
+            
+            .ride-order-description {
+                z-index: 1;
+                color: white;
+                font-size: 1.1em;
+                margin-left: .8em;
+                padding: .7em 0;
+            }
+
+            .ride-order-accomplishments-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                // align-items: center;
+                gap: 2em;
+                width: 100%;
+                // background-color: pink;
+                z-index: 1;
+                margin: 3em 0;
+                // margin-left: .2em;
+
+                .accomplishment-containers {
+                    width: 150px;
+                    height: 150px;
+                    background-color: #69C9FF;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    z-index: 1;
+                    border-radius: 10px;
+                    color: #ffffff;
+                    // -webkit-text-stroke-width: .2px;
+                    // -webkit-text-stroke-color: black;
+                    
+                    .accomplishments {
+                        font-size: 1.8em;
+                        // padding-top: 1em;
+                        font-weight: bold;
+                    }
+                    
+                    .accomplishments-description-top {
+                        font-size: 1.1em;
+                        padding-top: .7em;
+                    }
+                    
+                    .accomplishments-description-bottom {
+                        font-size: 1.1em;
+                    }
+                }
+            }
+        }
+        
+        .ride-order-right-container {
+            width: 50%;
+            height: 100%;
+            // background-color: lime;
+        }
+    }
+}

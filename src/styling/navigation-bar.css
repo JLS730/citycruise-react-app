@@ -1,0 +1,35 @@
+.navigation-bar-container {
+  background-color: #69C9FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-bar-container .navigation-bar {
+  width: 1200px;
+  height: 40px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}
+.navigation-bar-container .navigation-bar .navigation-bar-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-bar-container .navigation-bar .navigation-bar-left img {
+  height: 32px;
+  margin-left: 1em;
+}
+.navigation-bar-container .navigation-bar .navigation-bar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-bar-container .navigation-bar .navigation-bar-right a {
+  margin-right: 1em;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+}/*# sourceMappingURL=navigation-bar.css.map */
